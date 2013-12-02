@@ -551,6 +551,11 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\BoardOnline\boardonline.c</FilePath>
             </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\USART\usart.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

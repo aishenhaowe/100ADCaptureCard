@@ -128,19 +128,61 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
+          <Key>DLGDARM</Key>
+          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=764,128,1175,544,0)(121=-1179,50,-768,466,1)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(234=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0)</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>ARMDBGFLAGS</Key>
+          <Name>-T0</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
           <Key>UL2CM3</Key>
           <Name>-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL040000)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
+      <Breakpoint>
+        <Bp>
+          <Number>0</Number>
+          <Type>0</Type>
+          <LineNumber>47</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218292</Address>
+          <ByteObject>0</ByteObject>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename></Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\\main.c\47</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>59</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218360</Address>
+          <ByteObject>0</ByteObject>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename></Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\\main.c\59</Expression>
+        </Bp>
+      </Breakpoint>
       <DebugFlag>
         <trace>0</trace>
         <periodic>1</periodic>
-        <aLwin>0</aLwin>
+        <aLwin>1</aLwin>
         <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
         <aPa>0</aPa>
-        <viewmode>0</viewmode>
+        <viewmode>1</viewmode>
         <vrSel>0</vrSel>
         <aSym>0</aSym>
         <aTbox>0</aTbox>
@@ -174,10 +216,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>24</ColumnNumber>
+      <ColumnNumber>32</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>37</TopLine>
-      <CurrentLine>50</CurrentLine>
+      <TopLine>39</TopLine>
+      <CurrentLine>52</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -239,8 +281,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>133</TopLine>
+      <CurrentLine>133</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\CORE\startup_stm32f10x_md.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
@@ -426,10 +468,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>8</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>281</TopLine>
+      <CurrentLine>282</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\STM32F10x_FWLib\src\stm32f10x_gpio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_gpio.c</FilenameWithoutPath>
@@ -587,10 +629,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>42</ColumnNumber>
+      <ColumnNumber>7</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>4</TopLine>
-      <CurrentLine>19</CurrentLine>
+      <TopLine>7</TopLine>
+      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\LED\led.c</PathWithFileName>
       <FilenameWithoutPath>led.c</FilenameWithoutPath>
@@ -601,10 +643,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>37</ColumnNumber>
+      <ColumnNumber>46</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>12</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\BoardOnline\boardonline.c</PathWithFileName>
       <FilenameWithoutPath>boardonline.c</FilenameWithoutPath>
@@ -615,10 +657,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>52</ColumnNumber>
+      <ColumnNumber>44</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>59</TopLine>
+      <CurrentLine>67</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\USART\usart.c</PathWithFileName>
       <FilenameWithoutPath>usart.c</FilenameWithoutPath>
@@ -638,8 +680,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\delay\delay.c</PathWithFileName>
       <FilenameWithoutPath>delay.c</FilenameWithoutPath>
@@ -650,10 +692,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>11</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>19</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\SYSTEM\sys\sys.c</PathWithFileName>
       <FilenameWithoutPath>sys.c</FilenameWithoutPath>
@@ -675,9 +717,35 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\Solution\100路AD采集卡\BaseBoard\SYSTEM\DoubleLink\doublelink.h</PathWithFilename>
+    <PathWithFilename>D:\Documents\GitHub\100ADCaptureCard\BaseBoard\STM32F10x_FWLib\inc\stm32f10x_gpio.h</PathWithFilename>
+    <TopLine>69</TopLine>
+    <CurrentLine>75</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>D:\Documents\GitHub\100ADCaptureCard\BaseBoard\HARDWARE\USART\usart.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>5</CurrentLine>
+    <CurrentLine>10</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -709,27 +777,51 @@
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>41</ColumnNumber>
-          <TopLine>37</TopLine>
-          <CurrentLine>54</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\SYSTEM\DoubleLink\doubleLink.c</Name>
-          <ColumnNumber>3</ColumnNumber>
-          <TopLine>70</TopLine>
-          <CurrentLine>71</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\SYSTEM\DoubleLink\doublelink.h</Name>
-          <ColumnNumber>22</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>5</CurrentLine>
+          <ColumnNumber>15</ColumnNumber>
+          <TopLine>45</TopLine>
+          <CurrentLine>45</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\HARDWARE\LED\led.c</Name>
-          <ColumnNumber>35</ColumnNumber>
-          <TopLine>2</TopLine>
+          <ColumnNumber>7</ColumnNumber>
+          <TopLine>7</TopLine>
           <CurrentLine>23</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\HARDWARE\BoardOnline\boardonline.c</Name>
+          <ColumnNumber>46</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>12</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\STM32F10x_FWLib\src\stm32f10x_gpio.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>281</TopLine>
+          <CurrentLine>282</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\STM32F10x_FWLib\inc\stm32f10x_gpio.h</Name>
+          <ColumnNumber>2</ColumnNumber>
+          <TopLine>69</TopLine>
+          <CurrentLine>75</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\CORE\startup_stm32f10x_md.s</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>133</TopLine>
+          <CurrentLine>133</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\HARDWARE\USART\usart.c</Name>
+          <ColumnNumber>44</ColumnNumber>
+          <TopLine>59</TopLine>
+          <CurrentLine>67</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\HARDWARE\USART\usart.h</Name>
+          <ColumnNumber>44</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>10</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

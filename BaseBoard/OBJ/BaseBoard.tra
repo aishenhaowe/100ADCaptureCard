@@ -43,7 +43,7 @@
 ### ADS-LD Output File: '..\OBJ\BaseBoard.axf'
 ### ADS-LD Command File: '..\OBJ\BaseBoard.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '..\OBJ\BaseBoard.lnp', Handle=0x000001DC
+### Creating CmdFile '..\OBJ\BaseBoard.lnp', Handle=0x00000374
 ### Writing '.lnp' file
 ### ADS-LD Command file '..\OBJ\BaseBoard.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

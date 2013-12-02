@@ -64,7 +64,13 @@ void Send_Data(USART_TypeDef* usartx, uint16_t data)
 	USART_SendData(usartx, data);
 }
 
-void Send_String(USART_TypeDef* usartx, uint16_t *str)
+void Send_String(USART_TypeDef* usartx, char *str)
 {
-
+	while(*str != '\0')           //判断字符串是否发送完毕
+	{
+		Send_Data(usartx, *str);        //发送单个字符
+		str++;                 //字符地址加1，指向先下一个字符
+		delay_ms(5);
+	}
 }
+
