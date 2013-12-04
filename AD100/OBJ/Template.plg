@@ -3,33 +3,175 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Project:</h2>
-D:\Documents\GitHub\100ADCaptureCard\AD100\USER\Template.uvproj
+E:\数据采集\end file\100ADCaptureCard\AD100\USER\Template.uvproj
 Project File Date:  12/02/2013
 
 <h2>Output:</h2>
+Load "..\\OBJ\\Template.AXF" 
+Set JLink Project File to "E:\数据采集\end file\100ADCaptureCard\AD100\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.28 , compiled Jun 16 2011 17:41:05
+Firmware: J-Link ARM V8 compiled Jun 16 2011 14:52:53
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103R8
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'AD100'
 compiling main.c...
-compiling extit.c...
 linking...
-Program Size: Code=8336 RO-data=268 RW-data=48 ZI-data=2120  
+Program Size: Code=8300 RO-data=268 RW-data=48 ZI-data=2120  
 FromELF: creating hex file...
 "..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
-Build target 'AD100'
-compiling extit.c...
-linking...
-Program Size: Code=8336 RO-data=268 RW-data=48 ZI-data=2120  
-FromELF: creating hex file...
-"..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\Template.AXF" 
+Set JLink Project File to "E:\数据采集\end file\100ADCaptureCard\AD100\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.28 , compiled Jun 16 2011 17:41:05
+Firmware: J-Link ARM V8 compiled Jun 16 2011 14:52:53
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103R8
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "..\\OBJ\\Template.AXF" 
+Set JLink Project File to "E:\数据采集\end file\100ADCaptureCard\AD100\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.28 , compiled Jun 16 2011 17:41:05
+Firmware: J-Link ARM V8 compiled Jun 16 2011 14:52:53
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103R8
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'AD100'
 compiling main.c...
-compiling extit.c...
 linking...
-Program Size: Code=8328 RO-data=268 RW-data=48 ZI-data=2120  
+Program Size: Code=8304 RO-data=268 RW-data=48 ZI-data=2120  
 FromELF: creating hex file...
 "..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
-Build target 'AD100'
-compiling main.c...
-linking...
-Program Size: Code=8316 RO-data=268 RW-data=48 ZI-data=2120  
-FromELF: creating hex file...
-"..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\Template.AXF" 
+Set JLink Project File to "E:\数据采集\end file\100ADCaptureCard\AD100\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.28 , compiled Jun 16 2011 17:41:05
+Firmware: J-Link ARM V8 compiled Jun 16 2011 14:52:53
+Hardware: V8.00
+S/N : 17935099 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103R8
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

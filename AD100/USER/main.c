@@ -67,7 +67,7 @@ int main(void)
 	LED_Init();			     //LED端口初始化
 	StateLED = 1;			 //点亮状态指示灯
 	Usart_Init(USART1, 9600);
-	EXTIX_Init();
+	
 	Adc_Init();
 	Key_Init();
 	//配置DMA:DMA1通道1,外设为ADC1,存储器为ADC_Value,长度NumOfAdConvert*NumOfAdcChanel.
@@ -80,6 +80,8 @@ int main(void)
 	GPIO_ResetBits(GPIOA, GPIO_Pin_12);
 
 	StateLED = 0;			//熄灭状态指示灯
+	EXTIX_Init();
+	delay_us(50);
 	while(1)
 	{
 		if(ready_flag == 1)

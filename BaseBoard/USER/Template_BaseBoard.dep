@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'BaseBoard': (DO NOT MODIFY !)
-F (.\main.c)(0x529EE0F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\USART -I..\HARDWARE\BoardOnline -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\DoubleLink -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
+F (.\main.c)(0x529F2661)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\USART -I..\HARDWARE\BoardOnline -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\DoubleLink -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
 I (..\HARDWARE\LED\led.h)(0x528793EE)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)

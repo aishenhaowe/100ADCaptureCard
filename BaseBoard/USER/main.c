@@ -20,7 +20,7 @@ int main(void)
 	LED_Init();			     //LED¶Ë¿Ú³õÊ¼»¯
 	GPIO_ResetBits(GPIOA, GPIO_Pin_13);
 	OnlineKey_Init();
-
+	delay_ms(2000);
 	for(i = 0; i < 10; i++)
 	{
 		char num = GPIO_ReadInputDataBit(GPIOB, 1 << (i + 6));
@@ -42,7 +42,7 @@ int main(void)
 				GPIO_SetBits(GPIOA, 1 << cur->data.data);
 				delay_ms(10);
 				GPIO_ResetBits(GPIOA, 1 << cur->data.data);
-
+				delay_ms(500);
 				while(isBusy)
 				{
 					isBusy = (GPIO_ReadInputDataBit(GPIOB, 1 << (cur->data.data + 6)) == 1);
