@@ -17,7 +17,7 @@ void EXTIX_Init(void)
 
   	//init GPIOA.11 上拉输入
   	GPIO_InitStructure.GPIO_Pin  = GPIO_Pin_11;
-  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
   	GPIO_Init(GPIOA, &GPIO_InitStructure);
 	GPIO_SetBits(GPIOA, GPIO_Pin_11);
 
@@ -26,7 +26,7 @@ void EXTIX_Init(void)
 
   	EXTI_InitStructure.EXTI_Line=EXTI_Line11;
   	EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;	
-  	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
+  	EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
   	EXTI_InitStructure.EXTI_LineCmd = ENABLE;
   	EXTI_Init(&EXTI_InitStructure);
 
@@ -39,7 +39,9 @@ void EXTIX_Init(void)
 
 
 void EXTI15_10_IRQHandler(void)
-{ 
+{
+	GPIO_SetBits(GPIOA, GPIO_Pin_12);	//状态输出端口输出1,表示忙碌 
+
 	delay_ms(10);
     if(EXTI_GetITStatus(EXTI_Line11) != RESET)
 	{

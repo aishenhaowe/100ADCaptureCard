@@ -37,10 +37,8 @@ void TransferData(USART_TypeDef *usartx, u8 *buff, int buffLen)
 	int i = 0;
 	for(i = 0; i < buffLen; i++)
 	{
-		StateLED = 1;
 		Send_Data(usartx, buff[i]);		
 		delay_ms(1);
-		StateLED = 0;
 	}	
 }
 
@@ -76,8 +74,11 @@ int main(void)
 	DMA_Config(DMA1_Channel1, (u32)&ADC1->DR, (u32)&ADC_Value, NumOfAdConvert*NumOfAdcChanel);
 	DMA_Cmd(DMA1_Channel1, ENABLE);//启动DMA
 	ADC_SoftwareStartConvCmd(ADC1, ENABLE);//软件启动指定的ADC功能
-	
-	delay_ms(2000);
+
+	GPIO_SetBits(GPIOA, GPIO_Pin_12);
+	delay_ms(1000);
+	GPIO_ResetBits(GPIOA, GPIO_Pin_12);
+
 	StateLED = 0;			//熄灭状态指示灯
 	while(1)
 	{
@@ -86,16 +87,12 @@ int main(void)
 			if(DMA_GetFlagStatus(DMA1_FLAG_TC1))
 			{
 				StateLED = 1;						//打开状态指示灯
-				GPIO_ResetBits(GPIOA, GPIO_Pin_12);	//状态输出端口输出0,表示忙碌
 				filter();
 				CalculateTransferBuff(After_filter);
 				TransferData(USART1, TransferBuff, TransferBuffLen);
 				ready_flag = 0;
-//				delay_ms(1000);
 				StateLED = 0;						//关闭状态指示灯
-				GPIO_SetBits(GPIOA, GPIO_Pin_12);	//状态输出端口输出1,表示空闲
-
-				ready_flag = 0;
+				GPIO_ResetBits(GPIOA, GPIO_Pin_12);	//状态输出端口输出0,表示空闲
 			}	
 		}
 	}
