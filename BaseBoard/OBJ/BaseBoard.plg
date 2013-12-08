@@ -4,6 +4,8 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 D:\Documents\GitHub\100ADCaptureCard\BaseBoard\USER\Template.uvproj
-Project File Date:  12/04/2013
+Project File Date:  12/08/2013
 
 <h2>Output:</h2>
+Clean started: Project: 'Template'
+   deleting intermediate output files for target 'BaseBoard'
