@@ -46,7 +46,7 @@
 ### ADS-LD Output File: '..\OBJ\Template.axf'
 ### ADS-LD Command File: '..\OBJ\Template.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '..\OBJ\Template.lnp', Handle=0x000001E4
+### Creating CmdFile '..\OBJ\Template.lnp', Handle=0x00000308
 ### Writing '.lnp' file
 ### ADS-LD Command file '..\OBJ\Template.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
