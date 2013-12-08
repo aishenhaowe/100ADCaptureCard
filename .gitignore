@@ -16,3 +16,15 @@
 *.exe
 *.out
 *.app
+
+#STM32
+*.__i
+*.axf
+*.Bak
+*.htm
+*.crf
+*.d
+*.hex
+*.lnp
+*.tra
+*.sct
