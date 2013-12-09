@@ -258,10 +258,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
+      <ColumnNumber>33</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>50</TopLine>
-      <CurrentLine>84</CurrentLine>
+      <TopLine>72</TopLine>
+      <CurrentLine>82</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -671,10 +671,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>43</ColumnNumber>
+      <ColumnNumber>1</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>16</CurrentLine>
+      <TopLine>2</TopLine>
+      <CurrentLine>12</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\LED\led.c</PathWithFileName>
       <FilenameWithoutPath>led.c</FilenameWithoutPath>
@@ -685,10 +685,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>22</ColumnNumber>
+      <ColumnNumber>33</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>31</TopLine>
-      <CurrentLine>31</CurrentLine>
+      <TopLine>20</TopLine>
+      <CurrentLine>32</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\USART\usart.c</PathWithFileName>
       <FilenameWithoutPath>usart.c</FilenameWithoutPath>
@@ -699,10 +699,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>61</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>8</TopLine>
-      <CurrentLine>14</CurrentLine>
+      <TopLine>12</TopLine>
+      <CurrentLine>21</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\ADC\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -801,9 +801,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>E:\数据采集\end file\100ADCaptureCard\AD100\STM32F10x_FWLib\inc\stm32f10x_gpio.h</PathWithFilename>
-    <TopLine>69</TopLine>
-    <CurrentLine>73</CurrentLine>
+    <PathWithFilename>D:\Documents\GitHub\100ADCaptureCard\AD100\HARDWARE\USART\usart.h</PathWithFilename>
+    <TopLine>1</TopLine>
+    <CurrentLine>9</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -831,43 +831,19 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>5</ActiveTab>
+      <ActiveTab>1</ActiveTab>
       <Documents>
         <Doc>
-          <Name>..\STM32F10x_FWLib\inc\stm32f10x_gpio.h</Name>
-          <ColumnNumber>23</ColumnNumber>
-          <TopLine>69</TopLine>
-          <CurrentLine>73</CurrentLine>
-        </Doc>
-        <Doc>
           <Name>..\HARDWARE\USART\usart.c</Name>
-          <ColumnNumber>22</ColumnNumber>
-          <TopLine>31</TopLine>
-          <CurrentLine>31</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\HARDWARE\LED\led.c</Name>
-          <ColumnNumber>43</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>16</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\HARDWARE\ADC\adc.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>8</TopLine>
-          <CurrentLine>14</CurrentLine>
+          <TopLine>25</TopLine>
+          <CurrentLine>45</CurrentLine>
         </Doc>
         <Doc>
-          <Name>..\HARDWARE\EXTINT\extit.c</Name>
-          <ColumnNumber>64</ColumnNumber>
-          <TopLine>37</TopLine>
-          <CurrentLine>43</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\main.c</Name>
-          <ColumnNumber>14</ColumnNumber>
-          <TopLine>50</TopLine>
-          <CurrentLine>84</CurrentLine>
+          <Name>..\HARDWARE\USART\usart.h</Name>
+          <ColumnNumber>24</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>9</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

@@ -35,11 +35,14 @@ void CalculateTransferBuff(u16 *buff)
 void TransferData(USART_TypeDef *usartx, u8 *buff, int buffLen)
 {
 	int i = 0;
+
+	Usart485_Enable();
 	for(i = 0; i < buffLen; i++)
 	{
 		Send_Data(usartx, buff[i]);		
 		delay_ms(1);
-	}	
+	}
+	Usart485_Disable();	
 }
 
 //对采集的数据进行求平均值
@@ -65,6 +68,7 @@ int main(void)
 	delay_init(72);	    	 //延时函数初始化	  
 	NVIC_Configuration(); 	 //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
 	LED_Init();			     //LED端口初始化
+	Usart485_ControlInit();
 	StateLED = 1;			 //点亮状态指示灯
 	Usart_Init(USART1, 9600);
 	

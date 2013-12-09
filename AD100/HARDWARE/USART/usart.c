@@ -25,6 +25,28 @@ int fputc(int ch, FILE *f)
 }
 #endif
 
+void Usart485_ControlInit(void)
+{
+	GPIO_InitTypeDef  GPIO_InitStructure;
+	
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);	 	//使能PA端口时钟
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;				 	//PA.12为状态输出端口
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD; 		 	//开漏输出
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
+	GPIO_ResetBits(GPIOA,GPIO_Pin_8);						 	//PA.12 输出低
+}
+
+void Usart485_Enable(void)
+{
+	GPIO_SetBits(GPIOA, GPIO_Pin_8);	
+}
+
+void Usart485_Disable(void)
+{
+	GPIO_ResetBits(GPIOA, GPIO_Pin_8);	
+}
+
 void Usart_Init(USART_TypeDef *usart, int baudRate)
 {
 	//GPIO端口设置
